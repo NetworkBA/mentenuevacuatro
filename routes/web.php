@@ -81,7 +81,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::POST('login.nv', function () {
     return 'hola';
-});
+})->name('login.nv');
 
 //rutas para login con cuentas de facebook y google
 Route::get('login/{driver}', [LoginController::class, 'redirectToProvider']);
