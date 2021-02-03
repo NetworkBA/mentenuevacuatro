@@ -24,7 +24,7 @@ class LoginController extends Controller
 
       public function InicioSesion(Request $request )
       {
-        return $request->username + $request->password;
+        return $request->username . $request->password;
 
       }
     /**
