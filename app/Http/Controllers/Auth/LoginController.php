@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\SocialProfile;
 use App\Http\Controllers\Controller;
@@ -20,6 +21,11 @@ class LoginController extends Controller
         return Socialite::driver($driver)->redirect();
     }
 
+
+      public function InicioSesion(Request $request )
+      {
+        return $request->username;
+      }
     /**
      * Obtain the user information from facebook.
      *
@@ -51,7 +57,7 @@ class LoginController extends Controller
 
         auth()->login($user);
         return redirect()->route('ejemploVDG');
-    }    
+    }
 
     function logout(){
         Auth::logout();
