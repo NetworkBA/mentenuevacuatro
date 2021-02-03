@@ -3,8 +3,7 @@
     <div class="row">
       <div style="background-color: #76cee6" class="col">
         <span class="align-middle mx-auto text-white align-self-center"
-          >Bienvenido</span
-        >
+          >Bienvenido</span>
       </div>
       <!-- test -->
       <div class="col">

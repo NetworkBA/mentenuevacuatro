@@ -15,10 +15,10 @@
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-		<form method="POST" action="{{ route('login') }}">
+		<form method="POST" action="{{ route('login.nv') }}">
             @csrf
 			<loginv-component></loginv-component>
-		</form>		
+		</form>
 		<footer-component></footer-component>
 	</div>
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
