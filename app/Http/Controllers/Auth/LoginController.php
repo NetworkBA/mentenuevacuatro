@@ -24,8 +24,8 @@ class LoginController extends Controller
 
       public function InicioSesion(Request $request )
       {
-        return $request->username;
-        return $request->password;
+        return $request->username + $request->password;
+
       }
     /**
      * Obtain the user information from facebook.
