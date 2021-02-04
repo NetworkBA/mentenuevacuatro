@@ -136,3 +136,7 @@ Route::post('/contacto/store',[ContactosController::class,'store'])->name('conta
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
