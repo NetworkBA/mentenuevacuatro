@@ -23,6 +23,10 @@ Route::get('/', function () {
     return view('front.index');
 })->name('index');
 
+Route::get('/faqs', function () {
+    return view('faqs');
+})->name('faqs');
+
 Route::get('/Login', function () {
     return view('login');
 })->name('_login');
