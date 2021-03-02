@@ -25,7 +25,7 @@ Route::get('/', function () {
 
 Route::get('/faqs', function () {
     return view('faqs');
-})->name('faqs');
+});
 
 Route::get('/Login', function () {
     return view('login');
