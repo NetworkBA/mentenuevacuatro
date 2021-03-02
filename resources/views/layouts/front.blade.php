@@ -11,7 +11,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet">
 
 	<style type="text/css">
-		body {
+		.contenedor{
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		html,body {
+			height: 100%;
 			font-family: 'Montserrat', sans-serif;
 		}
 
