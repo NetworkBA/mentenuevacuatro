@@ -1,5 +1,5 @@
 <template>
-   	<div style="background-color: #333132;  position: fixed;
+   	<div style="background-color: #333132;
     height: 150px;
     bottom: 0;
     width: 100%;">

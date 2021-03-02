@@ -2,19 +2,6 @@
 
 @section('body')
 
-	<style>
-		html,body{
-			height: 100%;
-		}
-		.contenedor{
-			height: 100%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-	</style>
-
 	<div class="contenedor justify-content-center align-self-center" style="background-color: #F0F0F1;">
 		<div class="container">
 			<div class="row">
